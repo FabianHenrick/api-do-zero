@@ -8,16 +8,20 @@ import express from "express";
  */
 
 const app = express();
+/*
+O Comando abaixo serve para o express conseguir trabalhar com JSON
+*/
 app.use(express.json());
 
 const users = [];
 app.post("/usuarios", (req, res) => {
-  console.log(req.body);
+  users.push(req.body);
+
   res.send("ok, aqui deu certo!");
 });
 
 app.get("/usuarios", (req, res) => {
-  res.send("Ok, deu bom!");
+  res.json(users);
 });
 
 app.listen(3000);
