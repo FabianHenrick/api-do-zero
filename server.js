@@ -40,5 +40,5 @@ app.listen(3000);
 /* 
 acesso ao DB
 HendrikoDev
-QciUZi1OTtAMVSNn 
+S4HonUmTL5fY2FcF 
 */
