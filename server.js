@@ -36,3 +36,9 @@ app.listen(3000);
  *
  *
  */
+
+/* 
+acesso ao DB
+HendrikoDev
+QciUZi1OTtAMVSNn 
+*/
